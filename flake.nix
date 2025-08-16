@@ -73,8 +73,6 @@
                     find -name \*.ttf -exec mv {} $out/share/fonts/truetype/ \;
                   '';
                 };
-
-              sources = import ./sources.nix;
             in
             {
               sf-pro = makeAppleFont "sf-pro" "SF Pro Fonts.pkg" (inputs.sf-pro-source);
