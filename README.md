@@ -19,7 +19,7 @@ apple-fonts.url = "github:dealerofallthecats/apple-fonts-flake";
 
 2. Use in other modules
 ```nix
-inputs.apple-fonts.packages.x86_64-linux.FONTNAME_HERE
+inputs.apple-fonts.packages.SYSTEM_HERE.FONTNAME_HERE
 ```
 
 E.g.
