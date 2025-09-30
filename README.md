@@ -14,7 +14,7 @@ Usage:
 
 1. Add to flake.nix
 ```nix
-apple-fonts.url = "github:dealerofallthecats/apple-fonts-flake";
+apple-fonts.url = "github:catdeal3r/apple-fonts-flake";
 ```
 
 2. Use in other modules
